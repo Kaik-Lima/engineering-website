@@ -1,0 +1,548 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: black url(images/handyman-construction-site-process-drilling-wall-with-perforator.jpg) no-repeat local;
+    background-size: cover;
+    box-shadow: inset 100vh 100vw rgba(0, 0, 0, 0.504);
+}
+header .conteudo {
+    margin: 0 200px;
+}
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3%;
+}
+header .menu .pesquisa {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.95em;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    height: 25px;
+    padding: 5px 10px;
+}
+header .menu .links {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+header .menu .links a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+header .menu .links a:hover {
+    color: rgb(255, 218, 124);
+}
+header .intro {
+    padding-top: 10%;
+    max-width: 60%;
+}
+header .intro .titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+    color: rgb(255, 180, 49);
+}
+header .intro .apresentacao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 25px;
+    color: white;
+    padding: 5% 0;
+}
+
+header .intro .precos {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+header .intro .precos .basico .destaque {
+    background-color: black;
+    min-width: 20vw;
+}
+header .intro .precos .basico h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 40px 40px 0 40px;
+}
+.intro .precos .basico h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+header .intro .precos .basico .detalhes_basico {
+    background-color: rgba(0, 0, 0, 0.403);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+header .intro .precos .basico .detalhes_basico .detalhes {
+    padding-bottom: 10%;
+}
+header .intro .precos .basico .detalhes_basico .detalhes p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 21%;
+}
+header .intro .precos .basico .detalhes_basico .buy {
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    background-color: rgb(255, 201, 109);
+    padding: 10px;
+}
+header .intro .precos .basico .detalhes_basico .buy:hover {
+    color: white;
+    background-color: rgb(141, 97, 22);
+    cursor: pointer;
+}
+
+
+header .intro .precos .padrao .destaque {
+    background-color: rgb(230, 163, 46);
+    min-width: 20vw;
+}
+header .intro .precos .padrao h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 40px 40px 0 40px;
+}
+.intro .precos .padrao h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+header .intro .precos .padrao .detalhes_padrao {
+    background-color: rgba(0, 0, 0, 0.403);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+header .intro .precos .padrao .detalhes_padrao .detalhes {
+    padding-bottom: 10%;
+}
+header .intro .precos .padrao .detalhes_padrao p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+}
+header .intro .precos .padrao .buy {
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(230, 163, 46);
+    padding: 10px;
+}
+header .intro .precos .padrao .buy:hover {
+    background-color: rgb(141, 97, 22);
+    cursor: pointer;
+}
+
+
+.cont1 {
+    display: flex;
+    justify-content: center;
+    padding: 4% 0px;
+    background-color: rgb(241, 241, 241);
+}
+.cont1 .repairs {
+    max-width: 80vw;
+    max-height: 60vh;
+    display: flex;
+}
+.image-repair {
+    width: 50%;
+}
+.cont1 .info {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5%;
+    background-color: white;
+}
+.cont1 .info h2 {
+    font-size: 2.5em;
+    padding: 20px;
+}
+.cont1 .info p {
+    font-size: 1em;
+    padding: 20px 20px 20% 20px;
+    text-align: center;
+}
+.buttonContat {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(230, 163, 46);
+    width: 35%;
+    padding: 20px;
+
+}
+.buttonContat:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.propost {
+    background: black url(images/three-men-with-drawing-discussing-construction-site.jpg) top no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 1000px 1000px rgba(0, 0, 0, 0.532);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3% 0;
+}
+.building, .industrial, .future {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 231, 231);
+    padding: 4% 8% 3% 2%;
+}
+.building h4, .industrial h4, .future h4 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding-bottom: 10%;
+}
+.building .desc, .industrial .desc, .future .desc {
+    font-size: 0.87em;
+    padding-bottom: 10%;
+}
+
+.buttonMore {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(230, 163, 46);
+    width: 60%;
+    padding: 10px;
+
+}
+.buttonMore:hover {
+    cursor: pointer;
+    background-color: rgb(122, 86, 23);
+}
+.cont3 {
+    display: flex;
+    justify-content: center;
+    padding: 6%;
+}
+.repair {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.repair .selfhelp {
+    padding-right: 4%;
+}
+.womanworkImg {
+    max-width: 600px;
+    padding-bottom: 20px;
+}
+.conteudoleft {
+    background-color: rgb(231, 231, 231);
+    max-width: 600px;
+    padding: 25px 6% 20% 6%;
+}
+.conteudoleft h4.h4conteudoL {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: black;
+    padding: 7% 0px 0px 0px;
+}
+.conteudoleft p.pconteudoL {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 30px;
+    color: black;
+    padding: 3% 6% 8% 0px;
+}
+.conteudoleft .buttom {
+    background-color: rgb(230, 163, 46);
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudoleft .buttom:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.conteudoleft .buttom .pbuttom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: white;
+}
+.conteudoright {
+    max-width: 600px;
+    background-color: rgb(230, 163, 46);
+    padding: 10% 6% 15% 6%;
+}
+.conteudoright h4.h4conteudoR {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: white;
+    padding: 5% 0px 0px 0px;
+}
+.conteudoright p.pconteudoR {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+    padding: 3% 6% 10% 0px;
+}
+.conteudoright .buttom {
+    background-color: black;
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudoright .buttom:hover {
+    background-color: rgb(122, 86, 23);
+    cursor: pointer;
+}
+.conteudoright .buttom .pbuttom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: white;
+}
+.maleworkImg {
+    width: 600px;
+    padding-top: 20px;
+}
+.cont4 {
+    padding: 2% 0px 4% 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont4 .titlecont4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    color: black;
+    padding-bottom: 6%;
+}
+.cont4 .line1, .cont4 .line2 {
+    display: flex;
+    padding-bottom: 1%;
+}
+.jeffrey, .bob, .roberts, .alex, .lilly, .monica, .green, .mick {
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+    transition: all 0.2s;
+}
+.peoples .jeffrey {
+    background: black url(images/peoples/w.jpg) no-repeat local;
+    background-size: cover;
+}
+.peoples .bob {
+    background: black url(images/peoples/q.jpg) no-repeat local;
+    background-size: cover;
+}
+.peoples .roberts {
+    background: black url(images/peoples/3222.jpg) no-repeat local;
+    background-size: cover;
+}
+.peoples .alex {
+    background: black url(images/peoples/33333.jpg) no-repeat local;
+    background-size: cover;
+}
+.peoples .lilly {
+    background: black url(images/peoples/ee211.jpg) no-repeat local;
+    background-size: cover;
+}
+.peoples .monica {
+    background: black url(images/peoples/err.jpg) no-repeat local;
+    background-size: cover;
+}
+.peoples .green {
+    background: black url(images/peoples/4213.jpg) no-repeat local;
+    background-size: cover;
+}
+.peoples .mick {
+    background: black url(images/peoples/33214.jpg) no-repeat local;
+    background-size: cover;
+}
+.peoples .contemback {
+    width: 87.5%;
+    background-color: rgba(0, 0, 0, 0.601);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.peoples p {
+    padding: 20px 0px;
+}
+.jeffrey:hover, .bob:hover, .roberts:hover, .alex:hover, .lilly:hover, .monica:hover, .green:hover, .mick:hover {
+    box-shadow: inset 1000px 1000px rgba(0, 0, 0, 0.119);
+    scale: 1.04;
+}
+.cont5 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+    padding: 5% 0px;
+}
+.cont5 .finish {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.cont5 .finish .contat {
+    background-color: white;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin-right: 2%;
+}
+.cont5 .finish .contat h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 6% 0px;
+}
+.cont5 .finish .contat h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+}
+.cont5 .finish .contat p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    padding: 6% 0px 2% 0px;
+}
+.cont5 .finish .contat input {
+    font-size: 1em;
+    width: 80%;
+    padding: 15px;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    place-content: rgb(231, 231, 231);
+}
+.cont5 .finish .contat .botao {
+    padding-top: 40px;
+}
+.cont5 .finish .contat .botao .submit:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.cont5 .finish .contat .botao .submit {
+    width: 84%;
+    padding: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    background-color: rgb(230, 163, 46);
+}
+.cont5 .finish .moviment {
+    background-color: white;
+    padding-left: 1.5%;
+    width: 40vw;
+}
+.cont5 .finish .moviment {
+    padding: 20px;
+}
+.cont5 .finish .moviment .circular {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: black url(images/front-view-male-builder-white-helmet-posing-light-background.jpg) center no-repeat local;
+    background-size: cover;
+}
+.cont5 .finish .moviment h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    padding-top: 20px;
+}
+.cont5 .finish .moviment p.pmovimento {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 30px;
+    padding-top: 30px;
+}
+.cont5 .finish .moviment .container {
+    display: flex;
+    padding-top: 20px;
+}
+.cont5 .finish .moviment .linha {
+    background-color: rgb(230, 163, 46);
+    width: 20px;
+    height: 100px;
+}
+.cont5 .finish .moviment .conteudo {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    padding: 0px 2%
+}
+.cont5 .finish .moviment .conteudo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 30px;
+    padding-right: 5%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: #333333;
+}
+footer p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(245, 245, 245);
+}
+footer p a {
+    color: rgb(149, 149, 241);
+}
+footer p a:hover {
+    text-decoration: none;
+}
